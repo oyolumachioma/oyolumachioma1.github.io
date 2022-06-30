@@ -1,0 +1,72 @@
+.navbar{
+    background-color: purple;
+    color: yellow
+}
+
+.foot{
+    background-color: palevioletred;
+    color: blueviolet;
+}
+
+.link a{
+    text-decoration: none;
+    color: yellow;
+   margin-top: 10px;
+    
+}
+.upnav{
+    background-color: yellow;
+    color: purple;
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+.grid{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    column-gap: 60px;
+}
+.grid1{
+    padding:3%;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    column-gap: 100px;
+    line-height: 40px;
+}
+.h2{
+    font-size: 30px;
+    color: indigo;
+    text-align: justify
+}
+.item{
+    font-size: 50px;
+    color: yellow;
+    background-color: darkmagenta;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.item1{
+    font-size: 30px;
+    color: darkmagenta;
+    text-decoration-line: underline;
+    text-align: center
+}
+/*.bmarquee{
+    background-color: plum;
+    height: 80px;
+    justify-content: space-evenly;
+}*/
+
+.footer{
+background-color: black;
+color: purple;
+}
+
+.zoom{
+    transition: transform.1s; 
+}
+.zoom:hover{
+transform: scale(1.1);
+}
+.gr{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+}
